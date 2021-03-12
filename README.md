@@ -29,7 +29,7 @@ When running the demo function, it may not use all available nodes depending on 
 and how long it took to run its computations.
 Repeatedly running the test frequently causes more nodes to report in the result.
 
-#### Doing ML with Ray and Juptyter and Jupyter
+#### Doing ML with Ray and Jupyter
 
 I will be adding a demonstration of basic ML workloads, using ray and jupyter notebooks, to this section soon.
 
