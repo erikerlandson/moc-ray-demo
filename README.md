@@ -13,13 +13,13 @@ currently supports Ray on ODH.
 
 #### To run the test notebook:
 
-This test notebook shows how to connect to a ray cluster from jupyter in ODH,
+This "smoke-test" notebook shows how to connect to a ray cluster from jupyter in ODH,
 and run a basic computation.
 
 1. Log into the ODH JupyterHub launcher. You should see a ray-enabled notebook image option such as `ray-ml-notebook`: choose this.
 1. In the environment variable section, add `JUPYTER_PRELOAD_REPOS` and set to `https://github.com/erikerlandson/moc-ray-demo.git`
 1. Launch your JupyterHub environment. As part of the startup process, the ODH JupyterHub launcher should also start up a Ray cluster.
-1. In Jupyter, navigate to directory `moc-ray-demo.git/source` and open the test notebook.
+1. In Jupyter, navigate to directory `moc-ray-demo.git/source` and open the "smoke-test" notebook.
 1. Run the notebook cells to confirm that it connects to your ray cluster and operates correctly.
 1. If the connection to the Ray cluster results in a timeout, wait a minute and re-try.
 
